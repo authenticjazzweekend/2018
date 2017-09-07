@@ -1,0 +1,21 @@
+# Site settings
+title: Authentic Jazz Weekend 2018
+email: sweetheartkorea@gmail.com
+description: > # this means to ignore newlines until "baseurl:"
+  Authentic Jazz Weekend 2018
+baseurl: "/2018" # the subpath of your site, e.g. /blog
+url: "http://www.authenticjazzweekend.com" # the base hostname & protocol for your site, e.g. http://example.com
+
+#twitter_username:
+github_username: authenticjazzweekend
+
+# Build settings
+markdown: kramdown
+#theme: minima
+ampdir: "/_amp"
+gems:
+  - jekyll-feed
+  - amp-jekyll
+exclude:
+  - Gemfile
+  - Gemfile.lock
