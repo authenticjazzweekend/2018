@@ -13,9 +13,12 @@ github_username: authenticjazzweekend
 markdown: kramdown
 #theme: minima
 ampdir: "/_amp"
-gems:
+plugins:
   - jekyll-feed
   - amp-jekyll
 exclude:
   - Gemfile
   - Gemfile.lock
+  - vendor
+  - .travis.yml
+
